@@ -68,8 +68,6 @@ To view this website on your own computer:
 
    Internet connection is needed for FontAwesome icons and Google Fonts (Poppins).
 
-   Make sure you have an active internet connection to load fonts and icons.
-
 ## Notes
    The website uses the Poppins font from Google Fonts.
 
