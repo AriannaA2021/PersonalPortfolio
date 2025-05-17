@@ -37,7 +37,7 @@ PersonalPortfolio/
 
 ## How to Run Locally
 
-      To view this website on your own computer:
+To view this website on your own computer:
 
 1. **Download the Repository**
 
@@ -57,25 +57,25 @@ PersonalPortfolio/
 
       You can open index.html in any modern web browser directly:
 
-        Double-click index.html to open in your default browser, OR Use an IDE like Visual Studio Code and open the project folder. Then:
+      Double-click index.html to open in your default browser, OR Use an IDE like Visual Studio Code and open the project folder. Then:
 
-        Use the Live Server extension (recommended) to launch a local development server, OR Right-click index.html and choose Open with Default Browser.
+      Use the Live Server extension (recommended) to launch a local development server, OR Right-click index.html and choose Open with Default Browser.
 
 ---
 
 ## Dependencies
-      No backend or build tools are required.
+   No backend or build tools are required.
 
-      Internet connection is needed for FontAwesome icons and Google Fonts (Poppins).
+   Internet connection is needed for FontAwesome icons and Google Fonts (Poppins).
 
-      Make sure you have an active internet connection to load fonts and icons.
+   Make sure you have an active internet connection to load fonts and icons.
 
 ## Notes
-      The website uses the Poppins font from Google Fonts.
+   The website uses the Poppins font from Google Fonts.
 
-      FontAwesome icons are loaded via CDN.
+   FontAwesome icons are loaded via CDN.
 
 ## Contact
-      For any questions or feedback, you can reach me at azziegirl18@gmail.com.
+   For any questions or feedback, you can reach me at azziegirl18@gmail.com.
 
-      Thank you for checking out my portfolio!
+   Thank you for checking out my portfolio!
