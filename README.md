@@ -32,13 +32,13 @@ You can download the repo as a ZIP file and extract it, or clone it using Git:
 
 git clone https://github.com/AriannaA2021/PersonalPortfolio.git
 
-  ---
+  --
 
 2. **Ensure Folder Structure**
 
 Make sure the images folder and all files remain in the root project folder. Your project folder should look like the structure shown above.
 
-  ---
+  --
 
 3. **Open the Website**
 
