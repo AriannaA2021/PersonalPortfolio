@@ -1,6 +1,6 @@
 # Arianna's Personal Portfolio
 
-Welcome to my personal portfolio website repository! This website showcases my skills, projects, and contact information.
+Welcome to my personal portfolio website repository! This website showcases my skills, projects, and contact information. The website runs locally and is not hosted yet.
 
 ---
 
