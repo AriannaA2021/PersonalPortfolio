@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title>Ariannas Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/28a9ad18df.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skill">Skills</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Software Engineer</p>
+                <h1>Hi, I'm <span>Arianna</span> from<br>Cal State Fullerton</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ----------about----- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hi! I'm Arianna, a Computer Science student at Cal State Fullerton
+                     with a passion for building software that’s both creative and impactful.
+                      This summer, I’ll be interning at Garmin as a Software Engineer, where 
+                      I’ll be gaining hands-on experience developing real-world solutions in a 
+                      professional environment. I’ve worked on a variety of personal projects, 
+                      including a multiplayer web game and a posture detection tool using OpenCV, 
+                      and I love bringing ideas to life through code. </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                            <li><span>Fluency in Many Languages</span><br>C++, Java, Python, and more</li>
+                            <li><span>Object-Oriented Programming</span><br>Object-Oriented Design</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Saddleback College</span><br>Data Structures, Multivariable Calculus, Advanced Java, Object Oriented Programming, and more!</li>
+                            <li><span>Cal State Fullerton</span><br>Database Systems, Algorithm Design, Compiler Design, Foundations of Software Engineering, and more!</li>
+                            <li><span>Major GPA</span><br>3.90</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Fully Hacks 2025</span><br>Competed in a 24 hour hackathon and placed #1 with best use of AI tool, Cerebras</li>
+                            <li><span>Engineering Design Club</span><br>Designed and built a Spiderman Web Shooter using skills in engineering and computer science</li>
+                            <li><span>School Projects</span><br>Multiple collaborative projects with classmates using GitHub and learning server side skills.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!----- Skills--------------- -->
+    <div id="skill">
+        <div class="container">
+            <h1 class="sub-title">My Skills</h1>
+            <div class="skill-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Technical Skills</h2>
+                    <p>Languages: C++, Python, Java, HTML, CSS, JavaScript, SQL, R, and Excel</p>
+                    <p>Technologies: ReactJS, NodeJS, GitHub, SQL Server Management Studio, Visual Studio, and VSCode</p>
+                    <p>Operating Systems: (Proficient) Windows, (Familiar) Mac and Linux</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-screwdriver-wrench"></i>
+                    <h2>Non-Technical Skills</h2>
+                    <p>Communication: Strong Customer Service, Team Collaboration, Conflict Resolution, etc.</p>
+                    <p>Initiative: Self-starter, Proactive Learning, Goal Oriented, Problem Solving, etc.</p>
+                    <p>Attention to Detail: Precise, Organized, Debugging, Thoroughness, etc.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------ protfolio ------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.jpg">
+                    <div class="layer">
+                        <h3>Posture Corrector App</h3>
+                        <p>This app uses comupter vision to detect your bad posture and uses AI to 
+                            send you personalized messages on how to improve your posture! My team used Python, Open CV MediaPipe, 
+                            and Cerebras AI to create this project. The main challenge was finishing a prototype in under 24 hours.
+                            This project won us Fully Hacks 2025!</p>
+                        <a href="https://github.com/msavoiu/fullyhacks-2025"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.jpg">
+                    <div class="layer">
+                        <h3>AI Opponent and Multiplayer Tic Tac Toe Game</h3>
+                        <p>This app allows the user to play in two modes, singleplayer and multiplayer. In singleplayer, the user faces 
+                            an unbeatable AI that uses the minimax algorithm. In multiplayer, the user enters the server and is matched up with 
+                            other players on the server. Our team designed this game in Java and mainly had trouble with connecting the server intially.</p>
+                        <a href="https://github.com/celesterock/JavaGroupChat"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Syntax Analysis for Compiler</h3>
+                        <p>My classmates and I built the syntax analysis phase for a compiler in our compiler design class.
+                             This project was very challenging for us at first due to the need for abstraction. In the end though 
+                             we built a successful syntax analyzer for a compiler using C++.
+                        </p>
+                        <a href="https://github.com/dylannwong/cpsc-323-project-2"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/AriannaA2021" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!-------- Contact ------ -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>azziegirl18@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>(949) 500-1983</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/arianna-azcarraga-b01b06262/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/arianna.brielle/"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="https://www.x.com/"><i class="fa-brands fa-x-twitter"></i></a>
+                    </div>
+                    <a href="images/my_resume.pdf" download class="btn btn2">Download Resume</a>
+
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows = "6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+
+        var sidemen = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemen.style.right = "0";
+        }
+
+        function closemenu() {
+            sidemen.style.right = "-200px";
+        }
+
+    </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbw9PX3wXjVi3ru6OBDGD0uwABs96vtAsGka8T49ynMttqt75v5YDciKGoQAZ91_HroE1A/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg");
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully."
+                setTimeout(function() {
+                    msg.innerHTML = ""
+                }, 5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+</script>
+
+    </body>
+</html>
